@@ -5,48 +5,28 @@ Fran Vera</a><img src = "https://raw.githubusercontent.com/MartinHeinz/MartinHei
 
 ## Who am I?
 ```python
-class FranVera():
+class FranVera:
     
-  def __init__(self):
-    self.name = "Francisco Vera Cerezo";
-    self.username = "FranVeraCerezo";
-    self.location = "Málaga, Spain";
-    self.education = "Telecommunications Technology Engineering at UMA";
-  
-  def ambitions(self):
-      self.master_ai()()
-      self.improve_snowboarding()
-      self.build_personal_website()
-      self.contribute_to_open_source()
-      self.enhance_coding_skills()
-      self.stay_fit_and_healthy()
-      self.travel_more()
-  
-  def master_ai(self):
-      print("Keep learning about AI and staying updated with advancements.")
-  
-  def improve_snowboarding(self):
-      print("Practice more and master advanced snowboarding techniques.")
-  
-  def build_personal_website(self):
-      print("Design and develop a personal website to showcase my work.")
-  
-  def contribute_to_open_source(self):
-      print("Actively participate in open-source projects and collaborations.")
-  
-  def enhance_coding_skills(self):
-      print("Improve proficiency in Python, C#, and other languages.")
-  
-  def stay_fit_and_healthy(self):
-      print("Maintain a regular workout routine and eat healthily.")
-  
-  def travel_more(self):
-      print("Explore new places and immerse myself in different cultures.")
-
+    def __init__(self):
+        self.name = "Francisco Vera Cerezo"
+        self.username = "FranVeraCerezo"
+        self.location = "Málaga, Spain"
+        self.education = "Telecommunications Technology Engineering at UMA"
+    
+    def ambitions(self):
+        return [
+            "Master AI",
+            "Improve snowboarding",
+            "Build personal website",
+            "Contribute to open source",
+            "Enhance coding skills",
+            "Stay fit and healthy",
+            "Travel more"
+        ]
 
 if __name__ == '__main__':
     me = FranVera()
-    me.ambitions()
+    print(me.ambitions())
 ```
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
 
